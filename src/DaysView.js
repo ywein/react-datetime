@@ -2,7 +2,7 @@
 
 var React = require('react'),
 	createClass = require('create-react-class'),
-	moment = require('moment'),
+	moment = require('moment/src/moment').default,
 	onClickOutside = require('react-onclickoutside')
 	;
 
